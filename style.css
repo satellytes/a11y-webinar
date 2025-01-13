@@ -92,8 +92,8 @@ button {
     }
 }
 
-#modal-wrapper {
-    visibility: hidden;
+.modal-wrapper {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -101,22 +101,22 @@ button {
     height: 100%;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(3px);
-    display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
-#modal {
+.modal-wrapper--show {
+    display: flex;
+}
+
+.modal {
     padding: 24px;
     background: rgb(255, 255, 255);
     border-radius: 30px;
     width: 400px;
-
 }
 
-#modal-buttons {
+.modal-buttons {
     width: 100%;
     display: flex;
     justify-content: flex-end;
