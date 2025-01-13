@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessibility Webinar</title>
+    <meta name="description"
+          content="A simple, accessible modal dialog component tutorial for web developers, demonstrating best practices for creating inclusive user interfaces">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+
+<header>
+    <svg id="swoosh" viewBox="0 0 51 15" fill="none"
+         xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M5.2677 1.62848C-2.24866 4.13097 -0.220584 13.7035 8.33002 9.91382C30.0564 0.284465 50.4749 15 50.4749 15C50.4749 15 27.8129 -5.8777 5.2677 1.62848Z"
+              fill="currentColor"></path>
+    </svg>
+    <a id="logo" href="https://www.satellytes.com">Satellytes</a>
+</header>
+
+<main>
+    <div id="modal-wrapper">
+        <div id="modal">
+            <h2>Open Modal</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore
+                eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+                erat volutpat. </p>
+            <div id="modal-buttons">
+                <button id="disagree-button" class="secondary-button">Disagree</button>
+                <button id="agree-button">Agree</button>
+            </div>
+        </div>
+    </div>
+
+    <h1>Modal Component</h1>
+    <p>Click the button below to open the modal</p>
+    <button id="open-modal">Open Modal</button>
+
+    <p id="status-indicator"></p>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
