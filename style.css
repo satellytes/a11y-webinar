@@ -33,7 +33,7 @@ body {
     margin: 0;
 }
 
-header {
+.header {
     height: 65px;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@ header {
     color: rgb(62, 97, 238);
 }
 
-main {
+.main {
     padding: 0 24px;
 }
 
