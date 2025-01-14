@@ -92,6 +92,20 @@ button {
     }
 }
 
+.close-modal-button {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    color: black;
+    background: transparent;
+
+    &:hover {
+        background: transparent;
+        color: rgb(243, 18, 96);
+    }
+}
+
 .modal-wrapper {
     display: none;
     position: fixed;
@@ -114,6 +128,7 @@ button {
     background: rgb(255, 255, 255);
     border-radius: 30px;
     width: 400px;
+    position: relative;
 }
 
 .modal-buttons {

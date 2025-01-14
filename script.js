@@ -5,6 +5,11 @@ openModalButton.addEventListener('click', () => {
     modalWrapper.classList.add('modal-wrapper--show');
 })
 
+const closeModalButton = document.querySelector('.close-modal-button');
+closeModalButton.addEventListener('click', () => {
+    modalWrapper.classList.remove('modal-wrapper--show');
+})
+
 const statusIndicator = document.querySelector('.status-indicator');
 
 const disagreeButton = document.querySelector('.disagree-button');
